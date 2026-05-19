@@ -2,166 +2,153 @@
 
 ## The Vision
 
-Build AI systems that run micro-startups **fully or mostly autonomously**. AI handles the entire lifecycle:
-- Research trends
-- Social media management
-- Content creation
-- Feature strategy (data-driven learnings)
-- Code management (safe, secure)
-- Taking products to market
-- Payments & billing
-- Customer support & issue resolution
+Build AI systems that run micro-startups **fully autonomously**. AI handles everything. Human only intervenes when absolutely necessary.
 
-Human in the loop — but AI does the work.
+**Human role:** Director — sets direction, approves big decisions, handles edge cases.
+**AI role:** Everything else — research, content, support, payments, code, strategy.
 
 ---
 
-## Human-AI Collaboration System
+## Communication Protocol
 
-**Obsidian vault is our shared communication channel.** Both human and AI write notes here to communicate.
+### AI → Human (Flag for Review)
 
-### How It Works
-
-| Person | Writes To | Purpose |
-|--------|-----------|---------|
-| Human | `inbox/` | Quick captures, ideas, observations, feedback |
-| Human | `reviews/` | Review AI's work, approve/reject ideas |
-| AI | `topics/` | Research findings, synthesized notes |
-| AI | `daily/` | Research logs, what AI worked on |
-| AI | `inbox/` | Flags things for human attention |
-
-### Communication Protocol
-
-**Human → AI (via inbox):**
-- Add a note in `inbox/` with a `#[priority]` tag
-- Use `#[action]`, `#[idea]`, `#[feedback]`, `#[question]` tags
-- AI reads inbox on every run and incorporates into research
-
-**AI → Human (via inbox + Telegram):**
-- AI creates notes in `inbox/` flagged for human review
-- AI delivers summaries to Telegram via cron
-- Human reads AI notes directly in Obsidian
-
-### Human Writing Notes
-
-When you (human) add notes:
+When AI needs human input, it creates a note in `reviews/`:
 
 ```markdown
 ---
-created: 2026-05-19
-tags: #inbox #idea #priority
+created: 2026-05-20
+tags: #review #decision #urgent
 ---
 
-# [Brief Title]
+# Decision Needed: [Title]
 
-## Capture
-What you want to communicate.
+## Situation
+What triggered this decision.
 
-## Context
-Why this matters right now.
+## Options Considered
+1. Option A — pros/cons
+2. Option B — pros/cons
 
-## Related
-[[existing-note]] [[another-note]]
+## AI Recommendation
+Why AI thinks Option X is best.
+
+## Human Action Required
+What Director should decide.
 ```
 
-**Tags for AI attention:**
-- `#[action]` — AI should do something with this
-- `#[idea]` — New idea to research
-- `#[feedback]` — Feedback on AI's previous work
-- `#[question]` — Question for AI to answer
-- `#[approved]` — Human approved AI's suggestion
-- `#[rejected]` — Human rejected AI's suggestion
+**Tags:**
+- `#[decision]` — Needs human approval before proceeding
+- `#[edge-case]` — AI hit an edge case it can't handle
+- `#[urgent]` — Handle soon, blocking AI progress
 
-### AI Reading Human Notes
+### Human → AI (Minimal Intervention)
 
-On every research run, AI:
-1. Checks `inbox/` for new human notes
-2. Reads `reviews/` for feedback on previous work
-3. Incorporates human input into next research cycle
-4. Acknowledges and acts on human notes
+Human rarely writes. When they do, add to `inbox/`:
+
+```markdown
+---
+created: 2026-05-20
+tags: #inbox #directive
+---
+
+# Directive: [What human wants changed]
+
+## Directive
+Brief description of what AI should do differently.
+
+## Reason
+Why this matters.
+```
+
+**Tags:**
+- `#[directive]` — Human override/instruction
+- `#[priority]` — Shift priority immediately
 
 ---
 
-## Current Research Focus
+## What AI Researches
 
-### 1. Learn from What's Working
-- How are people using AI systems to run businesses? (Twitter, YouTube)
-- What AI tools/workflows are indie hackers and micro-startup founders sharing?
-- What are the real-world patterns that work?
+AI owns the entire research-to-action pipeline:
 
-### 2. Build Better Systems
-- AI agent frameworks for business operations
-- Social media AI (posting, scheduling, engagement)
-- Customer support AI (issue triage, resolution)
-- Payment/billing AI integration
+### 1. Market Research
+- Twitter trends (indie hackers, micro-startup builders)
+- YouTube case studies and walkthroughs
+- What AI systems are people actually using?
+
+### 2. Business Operations
+- Social media AI (content, posting, engagement)
+- Customer support AI (triage, resolution, refunds)
+- Payment/billing AI (invoicing, receipts, disputes)
 - Content generation at scale
-- Data-driven feature decisions
 
-### 3. Micro-Startup Specific
-- Marketing strategy for AI products
-- How to go from zero to first customer
-- Pricing, payments, invoicing (fully automated)
-- Building in public — sharing progress
-- Community building (Twitter, Discord, etc.)
-
-### 4. Technical Architecture
-- Agent orchestration for business tasks
-- Safety & security in AI code execution
+### 3. Technical
+- Agent frameworks for business tasks
 - Self-hosting vs third-party tradeoffs
+- Code safety and security
 - Cost-effective AI infrastructure
 
----
-
-## Key Questions
-
-- What AI systems are people actually using to run businesses in 2026?
-- How do successful indie hackers use AI vs traditional approaches?
-- What's the best way to handle customer support with AI?
-- How to automate payments and billing end-to-end?
-- What does "human in the loop" actually look like in practice?
-- How to research trends and validate ideas quickly?
+### 4. Go-to-Market
+- Marketing strategy for AI products
+- Zero to first customer
+- Building in public
+- Community building
 
 ---
 
-## Vault Structure
+## Vault Folder Structure
 
 ```
 ObsidianVault/
-├── research_program.md   ← This file (goals + collaboration protocol)
-├── daily/                ← Research logs by date
-│   └── YYYY-MM-DD.md     ← AI logs what it did today
-├── topics/               ← Synthesized research findings (AI)
-│   └── [topic].md
-├── inbox/                ← Shared inbox (human + AI)
-│   └── YYYY-MM-DD-[source].md
-├── reviews/              ← Human reviews AI's work
-│   └── YYYY-MM-DD-[item].md
-├── outbox/               ← Archived/processed notes
-├── backlog/              ← Ideas queued for research
-└── README.md
+├── research_program.md   ← This file
+├── daily/               ← AI work log (every session)
+├── topics/              ← Research findings (permanent)
+├── inbox/               ← Human directives (rare)
+├── reviews/             ← Decisions AI needs from human
+├── backlog/             ← Queued research tasks
+└── outbox/              ← Archived/processed
 ```
 
 ---
 
-## Sources to Follow
+## AI Behavior
 
-- Twitter: Indie hackers, AI tool founders, micro-startup builders
-- YouTube: Case studies, building in public, AI automation walkthroughs
-- Blogs: Micro-startup stories, AI business frameworks
+- **Never stop to ask** — Execute autonomously
+- **Default to action** — Try, learn, iterate
+- **Flag edge cases** — Create `reviews/` note, keep working
+- **Log everything** — `daily/` gets full work log
+- **Commit often** — Git history = timeline of decisions
+
+---
+
+## Key Questions AI Investigates
+
+- What AI systems are indie hackers using in 2026?
+- How to automate customer support end-to-end?
+- Best payment/billing stack for micro-startups?
+- How to build in public effectively?
+- What frameworks actually work for AI agents?
+
+---
+
+## Sources
+
+- Twitter (primary): Indie hackers, AI founders, micro-startup community
+- YouTube: Building in public, AI automation walkthroughs
 - GitHub: Open-source AI business tools
+- Blogs: Micro-startup stories, growth frameworks
 
 ---
 
 ## Constraints
 
-- Prefer **simple, practical** over complex/theoretical
-- Cite sources (tweets, videos, papers, blogs)
+- Prefer **simple, practical** over complex
+- Cite sources (tweets, videos, papers)
 - Always include **actionable takeaways**
-- Log every research session to `daily/`
 - Use wikilinks: [[like this]]
-- **Read inbox/ on every run** — human may have left notes
+- **Log to daily/ every session**
 
 ---
 
 ## Never Stop To Ask
-Execute autonomously. Research, synthesize, link, build.
+Execute autonomously. Research, build, ship, learn, repeat.
