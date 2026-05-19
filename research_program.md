@@ -12,18 +12,79 @@
 
 ## Verified Revenue Data (Real Numbers)
 
-| Founder | Product | Revenue | How |
+|| Founder | Product | Revenue | How |
 |---------|---------|---------|-----|
-| @yasser_elsaid_ | Unnamed | **$10M ARR** | Bootstrapped |
-| @chatbase | AI Chatbots | **$10M ARR** | Supabase |
-| @robj3d3 | SuperX | **$20.5K MRR** | Twitter growth tool |
-| @mediaking | 13 businesses | **$250K/month** | Bootstrap |
-| @starter_story | Micro SaaS | **$40K MRR** | iPhone, no code |
-| TommiPedruzzi | AI publishing | **$50K/month** | Royalties |
-| @marclou | 33 startups | Various | Acquisitions |
-| Vibe coder | Unknown | **$24K ARR** | 24 days |
+|| @yasser_elsaid_ | Unnamed | **$10M ARR** | Bootstrapped |
+|| @chatbase | AI Chatbots | **$10M ARR** | Supabase |
+|| @robj3d3 | SuperX | **$20.5K MRR** | Twitter growth tool |
+|| @mediaking | 13 businesses | **$250K/month** | Bootstrap |
+|| @starter_story | Micro SaaS | **$40K MRR** | iPhone, no code |
+|| TommiPedruzzi | AI publishing | **$50K/month** | Royalties |
+|| @marclou | 33 startups | Various | Acquisitions |
+|| Vibe coder | Unknown | **$24K ARR** | 24 days |
+|| Parking app founder | Parking finder | **$60K MRR** | Boring niche |
+|| Toll calculator founder | Toll calc | **$45K MRR** | Boring niche |
+|| Fuel tracker founder | Fuel costs | **$50K MRR** | Boring niche |
+|| Postiz | Open-source SaaS | **$43K MRR** | AGPL-3, fully public |
+|| Reddit SaaS | Unknown | **$30K MRR** | 4 months, Reddit only |
 
-**Pattern:** Vertical AI tools > Horizontal AI agents.
+**Pattern:** "Boring" vertical apps >> "sexy" horizontal tools.
+
+---
+
+## Speed-to-Revenue Frameworks
+
+### 5-Day $7K MRR Playbook
+1. Validate with 10 customer conversations (day 1)
+2. Pick smallest viable product (day 1)
+3. Build in public, tweet daily (day 2-3)
+4. Launch rough with waitlist (day 3)
+5. Direct outreach to 100 people (day 4)
+6. First revenue by day 5
+
+### Monthly Milestones
+- **Months 0-3:** First $100-1K MRR
+- **Months 3-6:** $1-10K MRR (PMF signals)
+- **Months 6-12:** $10-30K MRR
+- **Year 2:** $30-100K MRR
+
+---
+
+## Near-Zero Cost Stack
+
+| Service | Cost | Limit |
+|---------|------|-------|
+| Vercel | Free | Unlimited |
+| Supabase | Free | 50K users |
+| Cloudflare | Free | Unlimited |
+| Stripe | 2.9% + $0.30 | Per transaction |
+| Clerk | Free | 10K users |
+| Resend | Free | 3K emails/mo |
+| PostHog | Free | Unlimited |
+| Sentry | Free | 5K errors/mo |
+| GitHub | Free | Unlimited |
+
+**Total fixed cost: ~$1/month**
+Use this stack for ALL micro-startups.
+
+---
+
+## GEO — Generative Engine Optimization
+
+### The Opportunity
+- AI search growing 500% YoY
+- 59% of searches = zeroclick (no traffic to sites)
+- Most businesses invisible to AI recommendations
+- Only 23% of marketers thinking about GEO
+
+### Market
+- **$7 billion projected market**
+- Agencies charging $5,000-12,000/month
+
+### Key Insight
+> "Complexity is the moat. Simple questions = AI answers. Complex questions = AI needs expert sources."
+
+Build for complex topics. Simple = commoditized. Complex = moat.
 
 ---
 
