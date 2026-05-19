@@ -16,6 +16,72 @@ Human in the loop — but AI does the work.
 
 ---
 
+## Human-AI Collaboration System
+
+**Obsidian vault is our shared communication channel.** Both human and AI write notes here to communicate.
+
+### How It Works
+
+| Person | Writes To | Purpose |
+|--------|-----------|---------|
+| Human | `inbox/` | Quick captures, ideas, observations, feedback |
+| Human | `reviews/` | Review AI's work, approve/reject ideas |
+| AI | `topics/` | Research findings, synthesized notes |
+| AI | `daily/` | Research logs, what AI worked on |
+| AI | `inbox/` | Flags things for human attention |
+
+### Communication Protocol
+
+**Human → AI (via inbox):**
+- Add a note in `inbox/` with a `#[priority]` tag
+- Use `#[action]`, `#[idea]`, `#[feedback]`, `#[question]` tags
+- AI reads inbox on every run and incorporates into research
+
+**AI → Human (via inbox + Telegram):**
+- AI creates notes in `inbox/` flagged for human review
+- AI delivers summaries to Telegram via cron
+- Human reads AI notes directly in Obsidian
+
+### Human Writing Notes
+
+When you (human) add notes:
+
+```markdown
+---
+created: 2026-05-19
+tags: #inbox #idea #priority
+---
+
+# [Brief Title]
+
+## Capture
+What you want to communicate.
+
+## Context
+Why this matters right now.
+
+## Related
+[[existing-note]] [[another-note]]
+```
+
+**Tags for AI attention:**
+- `#[action]` — AI should do something with this
+- `#[idea]` — New idea to research
+- `#[feedback]` — Feedback on AI's previous work
+- `#[question]` — Question for AI to answer
+- `#[approved]` — Human approved AI's suggestion
+- `#[rejected]` — Human rejected AI's suggestion
+
+### AI Reading Human Notes
+
+On every research run, AI:
+1. Checks `inbox/` for new human notes
+2. Reads `reviews/` for feedback on previous work
+3. Incorporates human input into next research cycle
+4. Acknowledges and acts on human notes
+
+---
+
 ## Current Research Focus
 
 ### 1. Learn from What's Working
@@ -57,6 +123,26 @@ Human in the loop — but AI does the work.
 
 ---
 
+## Vault Structure
+
+```
+ObsidianVault/
+├── research_program.md   ← This file (goals + collaboration protocol)
+├── daily/                ← Research logs by date
+│   └── YYYY-MM-DD.md     ← AI logs what it did today
+├── topics/               ← Synthesized research findings (AI)
+│   └── [topic].md
+├── inbox/                ← Shared inbox (human + AI)
+│   └── YYYY-MM-DD-[source].md
+├── reviews/              ← Human reviews AI's work
+│   └── YYYY-MM-DD-[item].md
+├── outbox/               ← Archived/processed notes
+├── backlog/              ← Ideas queued for research
+└── README.md
+```
+
+---
+
 ## Sources to Follow
 
 - Twitter: Indie hackers, AI tool founders, micro-startup builders
@@ -72,7 +158,8 @@ Human in the loop — but AI does the work.
 - Cite sources (tweets, videos, papers, blogs)
 - Always include **actionable takeaways**
 - Log every research session to `daily/`
-- Create notes with wikilinks: [[like this]]
+- Use wikilinks: [[like this]]
+- **Read inbox/ on every run** — human may have left notes
 
 ---
 
