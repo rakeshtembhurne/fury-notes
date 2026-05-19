@@ -108,18 +108,7 @@ This means:
 2. **Multi-tenant architecture** — each subscriber has their own brand workspace
 3. **Postiz integration** — content from brandsome.app goes to Postiz for scheduling
 
----
 
-## First Customers (Dogfood)
-
-1. **Trigyaa.com** — Women's D2C, needs social content
-2. **KhabarOnline.in** — News site, needs content
-3. **JciAlumni.org** — 40K member community, needs outreach
-4. **TrueValueEstate.com** — Property valuation SaaS, needs marketing
-
-Validate with own projects → Open to public
-
----
 
 ## Status
 
