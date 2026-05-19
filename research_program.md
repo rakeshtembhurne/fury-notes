@@ -10,23 +10,102 @@
 
 ---
 
+## Rocky's Active Projects (May 2026)
+
+### Live Projects
+| Project | URL | What It Is | Status |
+|---------|-----|-----------|--------|
+| Trigyaa.com | shop.trigyaa.com | Women's wear D2C, India | LIVE |
+| KhabarOnline.com | khabaronline.com | News site | LIVE, needs content |
+| JciAlumni.org | jcialumni.org | JCI community site | LIVE, 40K members |
+| rakesh.tembhurne.com | rakesh.tembhurne.com | Personal blog | LIVE |
+
+### In Development
+| Project | Status |
+|---------|--------|
+| TrueValueEstate.com | Near production. Minor fixes needed. |
+| AI-Boilerplate | Needs improvements + selling |
+
+### Skip / Delete
+EvoCreator, IndianLaw, AI-CoParenting, AI-Dating, PulmoRehab, ComicsBuilder, Pi-Starter
+
+---
+
+## Priority #1: Social Media AI Content System
+
+**For:** Trigyaa.com + KhabarOnline.com
+
+**What it does:**
+- Monitors new content (products/news)
+- Generates social posts (text + image + video)
+- Auto-posts to FB, Instagram, Twitter/X, YouTube
+- Runs on a schedule via AI agent (Hermes)
+
+**Workflow:**
+```
+New Content → AI Agent → Draft Posts → Human Review → Publish
+                                        ↓
+                        (optional auto-post for high-confidence content)
+```
+
+**Safety Requirements:**
+- Dev/staging first, not production
+- Human approval before first posts
+- Read-only on production database initially
+- PR workflow for all code changes
+
+---
+
+## Priority #2: Brandsome.dev
+
+**Concept:** Logo.com for the AI era
+
+**User Journey:**
+1. Create logo (template-based)
+2. System learns brand identity (colors, fonts, style)
+3. Generate IG posts, FB covers, YouTube thumbnails — all brand-consistent
+4. Connect AI tools (Kling, Nano Banana) for video content
+
+**Why this product:**
+- Solves Trigyaa's content problem first
+- Turn the solution into a product others can use
+
+## Priority #3: Brandsome.app
+
+**Concept:** Social media content creation SaaS (Capcut/Canva alternative)
+
+**What it does:**
+- Create branded images, videos, Instagram reels
+- AI-powered content generation using brand identity from Brandsome.dev
+- Auto-scheduling and posting (via Postiz integration)
+
+**Overlap check:** Postiz handles social media scheduling/posting. OpenClaw handles... (need to research). Brandsome.app focuses on CONTENT CREATION, not scheduling.
+
+**User Journey:**
+1. Connect brand (from Brandsome.dev or manual)
+2. Select content type (reel, post, story, thumbnail)
+3. AI generates variations
+4. Download or send directly to Postiz for posting
+
+---
+
 ## Verified Revenue Data (Real Numbers)
 
-|| Founder | Product | Revenue | How |
-|---------|---------|---------|-----|
-|| @yasser_elsaid_ | Unnamed | **$10M ARR** | Bootstrapped |
-|| @chatbase | AI Chatbots | **$10M ARR** | Supabase |
-|| @robj3d3 | SuperX | **$20.5K MRR** | Twitter growth tool |
-|| @mediaking | 13 businesses | **$250K/month** | Bootstrap |
-|| @starter_story | Micro SaaS | **$40K MRR** | iPhone, no code |
-|| TommiPedruzzi | AI publishing | **$50K/month** | Royalties |
-|| @marclou | 33 startups | Various | Acquisitions |
-|| Vibe coder | Unknown | **$24K ARR** | 24 days |
-|| Parking app founder | Parking finder | **$60K MRR** | Boring niche |
-|| Toll calculator founder | Toll calc | **$45K MRR** | Boring niche |
-|| Fuel tracker founder | Fuel costs | **$50K MRR** | Boring niche |
-|| Postiz | Open-source SaaS | **$43K MRR** | AGPL-3, fully public |
-|| Reddit SaaS | Unknown | **$30K MRR** | 4 months, Reddit only |
+||| Founder | Product | Revenue | How |
+||---------|---------|---------|-----|-----|
+||| @yasser_elsaid_ | Unnamed | **$10M ARR** | Bootstrapped |
+||| @chatbase | AI Chatbots | **$10M ARR** | Supabase |
+||| @robj3d3 | SuperX | **$20.5K MRR** | Twitter growth tool |
+||| @mediaking | 13 businesses | **$250K/month** | Bootstrap |
+||| @starter_story | Micro SaaS | **$40K MRR** | iPhone, no code |
+||| TommiPedruzzi | AI publishing | **$50K/month** | Royalties |
+||| @marclou | 33 startups | Various | Acquisitions |
+||| Vibe coder | Unknown | **$24K ARR** | 24 days |
+||| Parking app founder | Parking finder | **$60K MRR** | Boring niche |
+||| Toll calculator founder | Toll calc | **$45K MRR** | Boring niche |
+||| Fuel tracker founder | Fuel costs | **$50K MRR** | Boring niche |
+||| Postiz | Open-source SaaS | **$43K MRR** | AGPL-3, fully public |
+||| Reddit SaaS | Unknown | **$30K MRR** | 4 months, Reddit only |
 
 **Pattern:** "Boring" vertical apps >> "sexy" horizontal tools.
 
@@ -61,7 +140,6 @@
 | Clerk | Free | 10K users |
 | Resend | Free | 3K emails/mo |
 | PostHog | Free | Unlimited |
-| Sentry | Free | 5K errors/mo |
 | GitHub | Free | Unlimited |
 
 **Total fixed cost: ~$1/month**
@@ -93,8 +171,9 @@ Build for complex topics. Simple = commoditized. Complex = moat.
 **We have:**
 - Auto-research system (vault, agent, cron)
 - Hermes AI agent (can do research, coding, content)
-- Twitter data (5,964 tweets from 473 accounts)
+- Twitter data (5,964 tweets from 476 accounts)
 - Git-tracked knowledge base
+- Self-hosted infra: SearXNG, Postiz, Listmonk, OpenClaw
 
 **This means we can:**
 - Research faster than any indie hacker
@@ -176,8 +255,11 @@ Build for complex topics. Simple = commoditized. Complex = moat.
 - **AI as tool, not product** — Build products that USE AI
 - **Real customers, real problems** — No hypothetical markets
 - **Git commit everything** — History = learning
+- **Dev/staging first** — Never touch production directly
+- **Human reviews all content** — Brand reputation protection
 
 ---
 
 ## Never Stop To Ask
+
 Validate, build, ship, learn, repeat.
