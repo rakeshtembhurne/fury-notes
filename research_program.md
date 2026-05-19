@@ -16,7 +16,7 @@
 | Project | URL | What It Is | Status |
 |---------|-----|-----------|--------|
 | Trigyaa.com | shop.trigyaa.com | Women's wear D2C, India | LIVE |
-| KhabarOnline.com | khabaronline.com | News site | LIVE, needs content |
+| KhabarOnline | khabaronline.in | News site | LIVE, needs content |
 | JciAlumni.org | jcialumni.org | JCI community site | LIVE, 40K members |
 | rakesh.tembhurne.com | rakesh.tembhurne.com | Personal blog | LIVE |
 

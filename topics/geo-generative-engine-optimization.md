@@ -122,8 +122,66 @@ From Rocky's research:
 
 ---
 
+---
+
+## The Brand Entity Imperative (Neil Patel)
+
+### Google's 54 Billion Entity Database
+In 2012, Google launched the Knowledge Graph — building a database of real-world entities. For 12 years, almost all marketers ignored it because keyword optimization still worked. Overnight, the entity database became everything.
+
+> "Google built a database of 54 billion real-world entities and 1.6 trillion facts. If your brand isn't clearly defined inside it, you're invisible to ChatGPT, Perplexity, and Google's AI overviews."
+
+### Why Brand Entity Matters Now
+- AI search queries Google's entity database first, not webpages
+- Without schema, AI reads your content and guesses; with schema, AI reads your data and knows
+- Schema markup is structured code that explicitly tells AI what entity you are — in machine language
+
+### Three Baseline Schema Types Every Business Needs
+1. **Organization schema** — Who you are
+2. **Product/Service schema** — What you offer
+3. **Local Business schema** — Where you are
+
+Use Google's Rich Results Test to verify what AI actually reads from your site.
+
+### The Complexity Moat
+> "Simple questions get answered by AI directly. Complex questions still need sources — and that's where the entire game is moving."
+
+> "Someone asking a simple question is browsing. Someone asking a complex question is buying. They have a budget. They need expertise."
+
+### The Zeroclick Reality
+- 59% of searches now don't result in a click (Google keeps answers on SERP)
+- Growing 1-2% points every year
+- Google is in the **answer business**, not the **traffic business**
+
+### Old Metrics vs. New Metrics
+| Old Metrics (Dead) | New Metrics (Live) |
+|--------------------|--------------------|
+| Traffic | Entity presence |
+| Rankings | AI overview citations |
+| CTR | Knowledge panel visibility |
+
+> "Stop measuring success by traffic and rankings. The new game is: **does AI recognize your entity?**"
+
+---
+
+## GEO vs SEO — Detailed Comparison
+
+| Aspect | SEO | GEO |
+|--------|-----|-----|
+| Target | Google ranking | AI recommendation |
+| Goal | Get clicks | Be the cited source |
+| Metrics | Position, CTR | Citations, attribution |
+| Content | Keywords | Expert sources, depth |
+| Authority | Built over months | Built over years |
+| Simple queries | Ranks well | AI answers directly |
+| Complex queries | Less relevant | AI still needs expert sources |
+
+---
+
 ## Related
 
 - [[rocky-notes-integration]]
 - [[micro-startup-categories]]
 - [[research_program.md]]
+- [[marketing-fundamentals]] — Brand entity, attribution in AI era
+- [[seo-brand-entity]] — Brand entity management
