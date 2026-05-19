@@ -79,7 +79,10 @@ New Content → AI Agent → Draft Posts → Human Review → Publish
 - AI-powered content generation using brand identity from Brandsome.dev
 - Auto-scheduling and posting (via Postiz integration)
 
-**Overlap check:** Postiz handles social media scheduling/posting. OpenClaw handles... (need to research). Brandsome.app focuses on CONTENT CREATION, not scheduling.
+**Infrastructure overlap check:**
+- **OpenClaw** = AI agent framework (competitor to Hermes). Self-hosted, has Gateway protocol, plugins for Slack/WhatsApp/Telegram. NOT a social media tool.
+- **Postiz** = Open-source social media scheduling tool. Hit $100K MRR (by @wickedguro). We can INTEGRATE with it, not compete with it.
+- Brandsome.app focuses on CONTENT CREATION (AI-generated images/video), Postiz handles SCHEDULING/POSTING. They complement each other.
 
 **User Journey:**
 1. Connect brand (from Brandsome.dev or manual)
