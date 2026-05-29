@@ -178,6 +178,114 @@ Use Google's Rich Results Test to verify what AI actually reads from your site.
 
 ---
 
+---
+
+## Additional Research: AI Platform SEO Deep-Dive
+
+### ChatGPT SEO: The Ready-to-Buy Traffic
+
+**Why ChatGPT Traffic is 4.4x More Valuable:**
+- 72.5% engagement vs 60.4% from traditional search
+- 2 min 13 sec average visit vs 1 min 37 sec from Google
+- AI visitors convert up to **23x better** than organic search visitors
+- ChatGPT drives **82% of sales** and **87% of AI traffic**
+
+**4 Factors That Determine AI Recommendations:**
+
+| Factor | What AI Looks For |
+|--------|------------------|
+| **Authority Signals** | Citations from respected publications, expert roundups, Wikipedia |
+| **Content Intelligence** | Directly answers specific questions, original data, structured for AI parsing |
+| **Specificity Strategy** | Ultra-niche targeting ("best CRM for manufacturing companies with 100 sales reps") |
+| **Reputation Network** | Frequent mentions across web; context matters 9.1/10 vs domain authority 2.6/10 |
+
+### Perplexity SEO: Research-Minded Buyers
+
+**Perplexity User Behavior:**
+- Spend **11-23 minutes** per session (vs. 2 min on Google)
+- Click through to **4-5 pages** each time
+- Less than half leave immediately
+- **Research mode, not browsing mode** — further along buyer journey
+
+**5-Step Blueprint for Perplexity:**
+1. **Question-Answer-Evidence Structure** — Turn every section into a specific question, give direct answer, support with data
+2. **Make Everything Scannable** — Clear headings, numbered lists, FAQ sections
+3. **Create Your Own Data** — Survey customers, compile industry stats, publish original research
+4. **Write Like People Talk** — Use conversational language mirroring actual queries
+5. **Show Up Where Your Audience Hangs Out** — Answer questions on Reddit, Quora, engage in discussions
+
+### The HubSpot Case Study
+
+HubSpot cracked AI search recommendations by:
+1. Creating **100-300 ultra-specific pages** (CRM for manufacturing, CRM for real estate teams under 50, etc.)
+2. Focusing entirely on **bottom-of-funnel content** (buying intent, not educational)
+3. Using AI to scale content creation for every customer scenario
+4. Building mentions through **digital PR and authentic community engagement**
+
+### Content Memory & Half-Life
+
+> "Content has a built-in half-life. Unless it's refreshed or reinforced, the system assumes it's expired."
+
+- Wikipedia shows up everywhere because pages are **constantly updated**
+- Different topics decay at different rates
+- Educational/topical content holds value longer
+- **Publish consistently** to stay relevant in AI systems
+
+### Authority Clusters: The Network Effect
+
+> "Your YouTube titles can influence how your blog ranks on Perplexity."
+
+Content clusters strengthen each other:
+- Blogs, YouTube videos, and podcasts don't live in silos
+- Connected content builds topical authority
+- Use same core terminology across platforms
+- Time releases to build on each other
+
+**Example Cluster:**
+```
+- How to deadlift for beginners
+- Deadlift form common mistakes
+- Why your squats aren't working
+- Fixing common problems, first month at the gym
+- Building a full routine
+```
+
+### Freshness & Citation Velocity
+
+> "In 2026, the algorithm will start weighing freshness and citation velocity, not just total citations."
+
+If a new brand gets mentioned constantly in the last 30 days, AI will start citing them over older brands.
+
+**Action Items:**
+- Publish consistently — fresh content signals relevance
+- Get mentioned frequently — press coverage, podcast appearances, guest posts
+- Update existing content — add "last updated" dates
+- Do digital PR on industry-relevant websites
+
+### Sentiment-Based Ranking
+
+AI analyzes brand sentiment across:
+- Web reviews
+- Social mentions
+- Forum discussions
+
+Platforms like G2, TrustPilot, Amazon Reviews, and Yelp become **ranking signals**.
+
+### Action Items for Trigyaa + KhabarOnline
+1. **Add Question-Answer structure** to all content (especially Trigyaa product descriptions)
+2. **Create ultra-specific pages** for each product category
+3. **Update "last modified" dates** on existing content
+4. **Build mentions** via digital PR, expert roundups
+5. **Monitor review platforms** — encourage happy customers to leave reviews
+6. **Cross-link content clusters** — trigyaa blog + Instagram + YouTube using same terminology
+
+### Sources (Additional)
+- seo-geo.md (Consolidated from multiple YouTube transcripts)
+- ChatGPT SEO: The New Way To Get Ready-To-Buy Traffic (Neil Patel)
+- Perplexity SEO: The New Way to Get Ready-to-Buy Traffic (Neil Patel)
+
+---
+
 ## Related
 
 - [[rocky-notes-integration]]
@@ -185,3 +293,4 @@ Use Google's Rich Results Test to verify what AI actually reads from your site.
 - [[research_program.md]]
 - [[marketing-fundamentals]] — Brand entity, attribution in AI era
 - [[seo-brand-entity]] — Brand entity management
+- [[seo-geo]] — Detailed GEO platform breakdown
