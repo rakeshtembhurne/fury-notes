@@ -6,90 +6,66 @@ tags: #daily #research-log
 # Daily Research Log — 2026-05-29
 
 **Agent:** Fury (Hermes Agent)
-**Topic:** Vault synthesis — web search down day 5+, Brandsome dogfood analysis
+**Topic:** Vault-only research — web search 6+ days down, tweet data 4 days stale
 
 ## Session Summary
 
-**Web Search Status:** Down (HTTP 400 — 5+ consecutive days). Vault-only mode.
+**Web Search Status:** Down (HTTP 400 — 6+ consecutive days). Prolonged outage. Vault-only mode.
 
-## What Was Reviewed
+**TweetDB Status:** Last scraped May 25 (4 days ago). No new tweets in last 48h.
 
-1. **research_program.md** — 3 active priorities confirmed, no changes to Rocky's live projects
-2. **brandsome-dev-logo-tool.md** — Phase 1-3 build plan solid, competitive analysis complete
-3. **brandsome-app-social-media-saas.md** — Tech stack + Postiz integration mapped, dogfood-first approach defined
-4. **khabar-online-content-gap.md** — Gap note already created (May 28), blocker still requires Rocky input
-5. **inbox/** — No new inbox items. All items from May 19.
-
-## Key Findings
-
-### No Actionable Gaps in Top 3 Priorities
-All three research priorities have detailed, actionable notes:
-- **Priority #1 (Trigyaa/Khabar content):** Prompts, calendar, image workflow all exist
-- **Priority #2 (Brandsome.dev):** Competitive analysis + build phases complete
-- **Priority #3 (Brandsome.app):** Tech stack + Postiz integration mapped
-
-### Dogfood Opportunity: Trigyaa → Test Brandsome Workflow Manually
-Both Brandsome notes recommend dogfooding with Trigyaa before building product. This hasn't happened yet.
-
-**Current Trigyaa workflow (from vault):**
-- Flux AI generates product images
-- Hermes prompts generate captions
-- Manual process: export image → copy caption → post to Postiz
-
-**Brandsome.app workflow (theoretical):**
-- Upload Trigyaa logo → extract brand kit → "Generate 5 Instagram posts about [product]" → AI generates brand-consistent content → send to Postiz
-
-**Gap:** Trigyaa is using Hermes prompts + Flux AI, but NOT using a brand kit → content pipeline. This is exactly what Brandsome.app would solve.
-
-### Vault State: Research-Complete for Top Priorities
+## Vault State Verification
 
 | Area | Status | Notes |
 |------|--------|-------|
 | Trigyaa content system | ✅ Research-complete | 400-line prompts, 30-day calendar, Flux workflow |
 | Brandsome.dev | ✅ Research-complete | Phase 1-3 plan, competitive analysis, pricing model |
 | Brandsome.app | ✅ Research-complete | Postiz integration, dogfood approach, tech stack |
-| Blog queue | ✅ Research-complete | GSC-aligned drafts exist in inbox |
-| KhabarOnline content | ⚠️ Gap documented | No prompts/calendar, blocker: Rocky input needed |
+| Blog queue | ✅ Research-complete | GSC-prioritized drafts in inbox |
 | GEO | ⚠️ Not applied | Exists but not used on live sites |
+| KhabarOnline content | ⚠️ Gap documented | No prompts/calendar, blocker: Rocky input needed |
 | Postiz infra | ✅ Research-complete | topics/postiz-social-media-scheduling.md |
-
-### What Rocky's AI Agent Can Actually Execute Now
-
-Given vault state is comprehensive for top priorities, the agent is blocked on:
-1. **KhabarOnline prompts** — waiting for Rocky's brand voice input
-2. **GEO audit** — waiting for Rocky to add schema markup to production sites
-3. **Brandsome.dev build** — waiting for Codex/vibe coding sprint
-4. **Brandsome.app dogfood** — waiting for Rocky to manually test Trigyaa workflow
 
 ## Today's Actions
 
-1. ✅ Verified vault state — all top priorities have detailed research notes
-2. ✅ Confirmed web search down — 5+ consecutive days (prolonged outage)
-3. ✅ Identified dogfood opportunity — Trigyaa could use Brandsome workflow but hasn't tested it
-4. ✅ Git status clean — no uncommitted changes
+1. ✅ Verified web search — still down (6+ days, prolonged outage confirmed)
+2. ✅ Checked TweetDB — last scrape May 25, no new tweets in 48h
+3. ✅ Verified git status — clean, no uncommitted changes
+4. ✅ Confirmed no new inbox items since May 19
+5. ✅ Verified vault state — all top priorities research-complete
 
-## Next Steps (Human Action Needed)
+## Current Blockers (All Human-Actionable)
 
-1. **Dogfood Brandsome (manual test):** Take Trigyaa logo → extract brand kit → generate 5 posts with AI → post to Trigyaa Instagram. This validates the workflow before building Brandsome.app.
+| Blocker | What's Needed | Who's Blocked |
+|---------|---------------|----------------|
+| Dogfood Brandsome | Rocky manually tests Trigyaa → Brandsome workflow | Brandsome.app build |
+| KhabarOnline brand voice | Rocky defines editorial stance, content priorities | Hermes prompts |
+| GEO audit | Rocky applies schema markup + entity optimization | Trigyaa + KhabarOnline |
+| TrueValueEstate.com | Minor fixes needed | Near production |
+| AI-Boilerplate | Improvements + selling strategy | Product launch |
 
-2. **KhabarOnline brand voice:** Rocky defines: editorial stance, content priorities, posting frequency, existing social handles.
+## Web Search Downtime Pattern
 
-3. **Brandsome.dev build sprint:** Codex/vibe coding to build Phase 1 (minimal logo creator) in a weekend.
+Web search has now been down for 6+ consecutive days. This is a prolonged outage, not a temporary glitch. The agent has been in vault-only mode since May 23-24.
 
-4. **GEO audit:** Apply schema markup + entity optimization to Trigyaa + KhabarOnline (complex topics = moat).
+**Vault-only mode is still productive:**
+- Existing topics/ are comprehensive for current priorities
+- Blog content plan and implementation plan are detailed and actionable
+- All research gaps for top 3 priorities are documented with clear next steps
+- Tweet learnings pipeline is operational (just waiting for fresh data)
 
-## Current Blockers
+## What's NOT Blocked (Agent Can Execute)
 
-- **Web search down:** 5+ days. Vault-only mode. Research gaps cannot be filled from external sources.
-- **Brandsome dogfood:** Requires manual workflow testing by Rocky (not blocked by research, blocked by execution)
-- **KhabarOnline content:** Requires Rocky input on brand voice before prompts can be written
-- **GEO audit:** Requires human action on production sites
+1. **Blog implementation:** Move inbox drafts to blog project, publish GSC-aligned articles
+2. **TrueValueEstate fixes:** If Rocky shares specific bugs, Codex can fix them
+3. **Internal linking:** Audit existing blog posts for internal link structure
+4. **GEO note deep-dive:** Expand geo-generative-engine-optimization.md with more sources
 
 ## Related
 - [[research_program.md]]
 - [[brandsome-dev-logo-tool]]
 - [[brandsome-app-social-media-saas]]
-- [[khabar-online-content-gap]]
 - [[geo-generative-engine-optimization]]
-- [[trigyaa-hermes-content-prompts]]
-- [[trigyaa-content-calendar-30day]]
+- [[khabar-online-content-gap]]
+- [[blog-content-plan-2026]]
+- [[blog-implementation-plan]]
