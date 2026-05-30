@@ -57,6 +57,14 @@ To verify if a niche will work, look for these three indicators:
 2. **Affiliate Programs**: Check if major Indian retailers or platforms like vCommission or Amazon India Associates have high-paying offers in that niche.
 3. **Local Context**: Content that addresses India-specific issues (e.g., _GST compliance for freelancers_ or _Best air purifiers for Delhi pollution_) naturally ranks better in local results.
 
+
+## Related
+
+- [[rakesh-blog-gsc-priorities-2026]] — Blog implementation plan with GSC data
+- [[micro-startup-playbook]] — Monetization strategy for micro-startups
+- [[blog-content-plan-2026]] — Full blog content strategy (in inbox)
+- [[seo-geo]] — GEO strategy for blog content
+
 ---
 
 ## Sources

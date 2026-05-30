@@ -122,6 +122,14 @@ You don't have to bet everything on one model. But if you're serious about build
 
 That horse is Claude.
 
+
+## Related
+
+- [[ai-tools-2026]] — Broader AI tool landscape
+- [[claude-code-agent-teams-complete]] — Deep dive on Claude Code agent workflows
+- [[vibe-coding]] — Vibe coding methodology
+- [[brandsome-dev-logo-tool]] — Claude Code as competitive advantage for Brandsome
+
 ---
 
 *Draft — needs editing and expansion. Will move to blog project once refined.*

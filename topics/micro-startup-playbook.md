@@ -224,3 +224,7 @@ Build for complex topics. Simple = commoditized. Complex = moat.
 - [[geo-generative-engine-optimization]] — GEO deep dive
 - [[social-media-articles]] — Social media strategy
 - [[content-distribution-learnings]] — Distribution tactics
+- [[boring-ai-niches-making-millionaires]] — Niche strategy for micro-startups
+- [[claude-code-agent-teams-complete]] — Claude Code as primary coding tool
+- [[ai-model-war-career-strategy]] — AI model strategy for indie hackers
+- [[project-priorities-2026]] — Project direction summary

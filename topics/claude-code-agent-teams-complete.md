@@ -3,6 +3,14 @@ created: 2026-03-26
 tags: [inbox, draft, blog, ai, coding, claude-code]
 summary: "A comprehensive guide to Claude Code Agent Teams — how they work, when to use them, how to set them up, and real-world use cases that will change how you ship software."
 draft: true
+
+## Related
+
+- [[micro-startup-playbook]] — Build methodology using Claude Code
+- [[vibe-coding]] — Vibe coding workflow context
+- [[ai-coding-workflow]] — AI coding workflow patterns
+- [[ai-model-war-career-strategy]] — Career leverage via Claude Code mastery
+
 ---
 
 # Claude Code Agent Teams: The Complete Guide to Multi-Agent Development

@@ -84,6 +84,42 @@ Web search has now been down for 9+ consecutive days. This is a confirmed prolon
 - `brandsome.dev.md` — In development
 - `truevalueestate.com.md` — Near production
 
+
+## Today's Wikilink Audit & Improvements
+
+**Web Search:** Still down (HTTP 400, 11+ consecutive days). Vault-only mode confirmed prolonged outage.
+
+**TweetDB:** Last scrape May 25. DB has 5,989 tweets (date range May 18–May 25). 38 tweets from May 25 but no recent scrapes.
+
+### Wikilink Improvements (Vault-Only Productivity)
+
+Added Related sections + wikilinks to 5 orphan notes:
+
+| Note | Links Added |
+|------|------------|
+| `boring-ai-niches-making-millionaires.md` | micro-startup-playbook, brandsome-dev-logo-tool, brandsome-app-social-media-saas, new-micro-startup-signals |
+| `claude-code-agent-teams-complete.md` | micro-startup-playbook, vibe-coding, ai-coding-workflow, ai-model-war-career-strategy |
+| `ai-model-war-career-strategy.md` | ai-tools-2026, claude-code-agent-teams-complete, vibe-coding, brandsome-dev-logo-tool |
+| `profitable-blog-niches-india-2026.md` | rakesh-blog-gsc-priorities, micro-startup-playbook, blog-content-plan-2026, seo-geo |
+| `rakesh-blog-gsc-priorities-2026.md` | blog-implementation-plan, ai-model-war-career-strategy, claude-code-agent-teams-complete, micro-startup-playbook |
+
+Updated `micro-startup-playbook.md` Related section to include the newly connected orphan notes.
+
+**Orphan note audit:** 81 notes still have 0 incoming wikilinks. These are mostly reference/research notes intentionally kept separate. Key project notes are now well-connected.
+
+### Duplicate Detection
+- `topics/rakesh-blog-gsc-priorities-2026.md` (40 lines) is a summary of `inbox/blog-implementation-plan.md` (751 lines). Inbox version is the authoritative source — topics version is a stub. No action needed.
+
+### Git Commit
+Wikilink improvements across 6 files committed.
+
+## Related
+- [[research_program.md]]
+- [[micro-startup-playbook]]
+- [[boring-ai-niches-making-millionaires]]
+- [[claude-code-agent-teams-complete]]
+- [[ai-model-war-career-strategy]]
+
 ## Related
 - [[research_program.md]]
 - [[geo-generative-engine-optimization]]

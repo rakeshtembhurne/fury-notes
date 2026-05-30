@@ -1,6 +1,14 @@
 ---
 created: 2026-03-28
 tags: [inbox, blog, seo, content]
+
+## Related
+
+- [[blog-implementation-plan]] — Same content in inbox (source)
+- [[ai-model-war-career-strategy]] — Claude Code article in blog queue
+- [[claude-code-agent-teams-complete]] — Claude Code article in blog queue
+- [[micro-startup-playbook]] — Blog as distribution for micro-startups
+
 ---
 
 # Blog Implementation Plan — GSC Prioritized

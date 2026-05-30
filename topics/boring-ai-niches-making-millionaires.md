@@ -2,6 +2,14 @@
 created: 2026-03-24
 tags: [topic, ai, saas, business, niche]
 source: "YouTube transcript — Ben AI"
+
+## Related
+
+- [[micro-startup-playbook]] — Core playbook for building micro-startups
+- [[brandsome-dev-logo-tool]] — Niche vertical: fashion/lifestyle brands
+- [[brandsome-app-social-media-saas]] — Vertical-specific AI tool strategy
+- [[new-micro-startup-signals-2026-05-24]] — Revenue signals from indie hackers
+
 ---
 
 # The "Boring" AI Niches Making Millionaires in 2026
