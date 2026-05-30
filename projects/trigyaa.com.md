@@ -88,3 +88,10 @@ Urban working women 25-40. Tired of fast fashion falling apart after 3 washes. W
 - **"Repeatable":** A cut that will be restocked, not discontinued. North star.
 - **"Honest sizing":** Published bust/waist/hip in cm, not S/M/L guesswork
 - **"Fabric-first":** Every design decision starts with fabric, not silhouette
+
+## Related
+- [[research_program.md]] — Overall project priorities
+- [[trigyaa-playbook]] — Full brand playbook (voice, tone, content pillars)
+- [[trigyaa-content-calendar-30day]] — Content calendar for social media
+- [[trigyaa-hermes-content-prompts]] — AI content generation prompts
+- [[brandsome-app-social-media-saas]] — Content generation infrastructure

@@ -84,3 +84,9 @@ Solo founder testing whether AI agents let one person run twenty projects. India
 
 - Pieter Levels, Marc Lou, Dagogo Altraide — solo portfolios, Western markets
 - **Wedge:** Agent orchestration skill library, emerging-market revenue data, ecosystem nobody else documents
+
+## Related
+- [[research_program.md]] — Overall project priorities
+- [[inbox/blog-content-plan-2026]] — GSC-prioritized blog content strategy
+- [[inbox/blog-implementation-plan]] — Implementation queue for blog articles
+- [[geo-generative-engine-optimization]] — GEO strategy for blog
