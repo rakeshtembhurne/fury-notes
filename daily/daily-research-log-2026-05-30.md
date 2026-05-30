@@ -75,11 +75,12 @@ The inbox notes `blog-content-plan-2026.md` and `blog-implementation-plan.md` ar
 3. **Internal linking** — Audit existing blog posts for internal link structure
 4. **Note synthesis** — Create summary notes for complex topic clusters
 
-## Action Items
+## Action Items (Completed)
 
-- [ ] Add wikilinks from topics/ to inbox/blog-content-plan-2026.md
-- [ ] Archive notes-migration-map.md (completed migration)
-- [ ] Verify all project notes link to research_program.md
+- [x] Add wikilinks from topics/ to inbox/blog-content-plan-2026.md — Added via rakesh.tembhurne.com.md project file
+- [x] Archive notes-migration-map.md (completed migration) — Moved to outbox/archive-2026-05-30/
+- [x] Add Related sections to key project files — Added to trigyaa.com.md and rakesh.tembhurne.com.md
+- [x] Git commit and push — Pushed to GitHub
 
 ## Related
 - [[research_program.md]]
