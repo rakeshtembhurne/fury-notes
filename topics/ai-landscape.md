@@ -8,6 +8,16 @@ source: notes directory
 
 _Auto-consolidated from multiple video and text sources covering AI tools, coding agents, video generation, GEO/SEO, influencers, and monetization._
 
+## Related
+- [[ai-tools-2026]] — Current AI tools landscape and benchmarks
+- [[ai-tools-articles]] — Consolidated AI tools notes (similar content, different focus)
+- [[claude-code-skills]] — Claude Code skill development
+- [[claude-code-skills-20]] — 20 Claude Code skills deep dive
+- [[claude-code-agent-teams-complete]] — Multi-agent development with Claude Code
+- [[vibe-coding]] — Vibe coding methodology
+- [[ai-model-war-career-strategy]] — AI model selection for career/production
+- [[micro-startup-playbook]] — Micro-startup AI stack decisions
+
 ## Key Takeaways
 
 ### AI Models & Coding Agents
