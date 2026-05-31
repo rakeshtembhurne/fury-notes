@@ -100,3 +100,6 @@ source: "Twitter favorites (1023 tweets)"
 - github.com/obra/superpowers (61K+ stars)
 - github.com/nousresearch/hermes-agent
 - github.com/openclaw/openclaw (340K+ stars)
+
+## Related
+- [[ai-tools-2026]] · [[claude-code]] · [[vibe-coding]] · [[ai-model-harness-engineering]]

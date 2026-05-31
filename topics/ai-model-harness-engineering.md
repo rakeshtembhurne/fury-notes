@@ -26,3 +26,6 @@ source: YouTube transcript
 ---
 
 *Source: [Prompt Engineering - The AI Model Doesn't Matter Anymore](https://www.youtube.com/watch?v=1Ohf2aeSPFA)*
+
+## Related
+- [[ai-tools-2026]] · [[claude-code]] · [[ai-ml-tools-learnings]] · [[harness-engineering-ai-agents]]
