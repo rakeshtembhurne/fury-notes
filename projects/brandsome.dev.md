@@ -6,6 +6,8 @@ source: notes directory
 
 # Brandsome.dev Playbook
 
+> Related: [[brandsome-dev-logo-tool]] · [[brandsome-app-social-media-saas]] · [[vibe-coding]] · [[micro-startup-playbook]]
+
 AI-powered logo and brand identity generator SaaS.
 
 ## Project Status

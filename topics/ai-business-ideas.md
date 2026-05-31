@@ -33,3 +33,8 @@ tags: [topic, ai, business-ideas]
 ## Resources
 - Justin Welsh Saturday Solopreneur newsletter
 - 11 Bedroom ideas making millions (Medium)
+
+## Related
+- [[validated-micro-startup-ideas]] — Validated micro-startup ideas
+- [[boring-ai-niches-making-millionaires]] — Revenue-focused niche analysis
+- [[micro-startup-playbook]] — Core playbook

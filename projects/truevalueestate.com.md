@@ -6,6 +6,8 @@ source: notes directory
 
 # TrueValueEstate.com Playbook
 
+> Related: [[micro-startup-playbook]] · [[boring-ai-niches-making-millionaires]] · [[n8n-ai-agents-workflows]]
+
 Professional property valuation software for valuers in India.
 
 ## Project Status

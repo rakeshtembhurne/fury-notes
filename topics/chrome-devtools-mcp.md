@@ -23,3 +23,8 @@ source: "YouTube transcript — Syntax (Wes Bos & Scott Tolinski)"
 ## Summary
 
 Chrome DevTools MCP is a powerful addition to the AI coding toolkit — enables programmatic browser control for debugging, performance analysis, scraping, and automated testing. Fires a separate Chrome instance for security. Best used when enabled per-project rather than globally. Key limitations: no accessibility tree or Lighthouse integration yet. Combine with browser-use for more advanced scraping workflows.
+
+## Related
+- [[mcp]] — MCP protocol overview
+- [[claude-code-mcps]] — Claude Code MCP integrations
+- [[claude-code]] — Claude Code fundamentals

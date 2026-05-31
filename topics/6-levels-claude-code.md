@@ -23,3 +23,9 @@ source: "YouTube transcript — Chase AI"
 ## Summary
 
 Six progression levels: (1) Prompt Engineer — one-way commands → (2) Planner — collaborative questioning → (3) Context Engineer — manages context rot and brings outside context → (4) Tool Architect — surgical MCP/framework selection → (5) Skill Engineer — encodes workflows as reusable skills → (6) Agentic Engineer — orchestrates validated multi-agent pipelines. Context window management is the key skill that separates Level 3+ from lower levels.
+
+## Related
+- [[claude-code-skills]] — Claude Code skill development
+- [[claude-code-agent-teams-complete]] — Agent teams for Level 6
+- [[vibe-coding]] — Vibe coding methodology
+- [[claude-code]] — Claude Code fundamentals

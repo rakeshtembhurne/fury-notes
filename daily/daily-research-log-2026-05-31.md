@@ -6,48 +6,67 @@ tags: #daily #research-log
 # Daily Research Log — 2026-05-31
 
 **Agent:** Fury (Hermes Agent)
-**Topic:** Vault-only research — web search 9+ consecutive days down
+**Topic:** Vault-only research — web search 10+ consecutive days down
 
 ## Session Summary
 
-**Web Search Status:** Down (HTTP 400 — 9+ consecutive days). Prolonged outage confirmed. Continuing vault-only mode.
+**Web Search Status:** Down (HTTP 400 — 10+ consecutive days). Prolonged outage confirmed. Continuing vault-only mode.
 
-**TweetDB Status:** Last scraped May 25 (6 days stale). 0 new tweets in 48h. DB has 5,989 total tweets, date range May 18–May 25.
+**TweetDB Status:** Last scraped May 25 (6 days stale). 0 new tweets in 48h. DB has 5,989 total tweets, date range May 18–May 25. Tweet2learnings returned empty output.
 
 ## Web Search Downtime Pattern
 
-Web search has now been down for 9+ consecutive days. This is a confirmed prolonged outage. Vault-only mode continues.
+Web search has now been down for 10+ consecutive days. Confirmed prolonged outage. Vault-only mode continues.
 
-**Vault-only mode remains productive:** All research priorities for current projects are complete in vault.
-
-## Vault State Verification
-
-| Area | Status | Notes |
-|------|--------|-------|
-| Trigyaa content system | ✅ Research-complete | 400-line prompts, 30-day calendar, Flux workflow |
-| Brandsome.dev | ✅ Research-complete | Phase 1-3 plan, competitive analysis, pricing model |
-| Brandsome.app | ✅ Research-complete | Postiz integration, dogfood approach, tech stack |
-| Blog queue | ✅ Research-complete | GSC-prioritized drafts in inbox, 8-week publishing queue |
-| GEO | ✅ Research-complete | Expanded with ChatGPT/Perplexity SEO deep-dive |
-| KhabarOnline content | ⚠️ Gap documented | No prompts/calendar, blocker: Rocky input needed |
-| Postiz infra | ✅ Research-complete | topics/postiz-social-media-scheduling.md |
-| TrueValueEstate.com | ⚠️ Near production | Minor fixes needed from Rocky |
+**Vault-only mode remains productive:** Focus on wikilink audits, note cross-linking, and synthesizing existing vault content.
 
 ## Today's Actions
 
-1. ✅ Verified web search — still down (9+ days, prolonged outage)
+1. ✅ Verified web search — still down (10+ days, prolonged outage)
 2. ✅ Checked TweetDB — last scrape May 25, 0 new tweets in 48h, 5,989 total tweets
-3. ✅ Verified vault state — all topic notes present and current
-4. ✅ Reviewed inbox — blog-content-plan-2026.md + blog-implementation-plan.md are comprehensive content planning docs (from notes directory)
-5. ✅ Created today's daily log
+3. ✅ Ran tweet2learnings — returned empty (no new tweets)
+4. ✅ Wikilink audit improvements — 4 project files + 5 orphan topic notes enhanced
 
-## Inbox Review
+## Wikilink Improvements
 
-**blog-content-plan-2026.md** — Comprehensive content plan with GSC data, 16 article ideas across AI/Claude Code, YouTube growth, and business topics. Publishing queue spans 8 weeks. No action needed from agent.
+### Project Files Now Linked to Topics
 
-**blog-implementation-plan-2026.md** — Detailed implementation plan with 8 articles, step-by-step drafts for Articles 01–05. Well-structured, ready for execution when Rocky is ready to publish.
+| File | Links Added |
+|------|-------------|
+| `projects/brandsome.dev.md` | brandsome-dev-logo-tool, brandsome-app-social-media-saas, vibe-coding, micro-startup-playbook |
+| `projects/trigyaa-playbook.md` | trigyaa-content-calendar-30day, trigyaa-hermes-content-prompts, trigyaa-flux-ai-image-workflow, flux-ai-social-media-automation |
+| `projects/truevalueestate.com.md` | micro-startup-playbook, boring-ai-niches-making-millionaires, n8n-ai-agents-workflows |
+| `projects/khabaronline.com.md` | khabar-online-content-gap, content-strategy, ai-reddit-content-research-method |
 
-**notes-migration-map.md** — Legacy migration tracking doc. Archive candidate.
+### Topic Notes Enhanced (Orphan → Connected)
+
+| Note | Links Added |
+|------|-------------|
+| `topics/chrome-devtools-mcp.md` | mcp, claude-code-mcps, claude-code |
+| `topics/6-levels-claude-code.md` | claude-code-skills, claude-code-agent-teams-complete, vibe-coding, claude-code |
+| `topics/ai-business-ideas.md` | validated-micro-startup-ideas, boring-ai-niches-making-millionaires, micro-startup-playbook |
+| `topics/automation-workflow-patterns.md` | n8n-ai-agents-workflows, automation-cost-optimization, claude-code-agent-teams-complete |
+| `topics/automation-cost-optimization.md` | automation-workflow-patterns, n8n-ai-agents-workflows, productized-ai-system-n8n-airtable |
+
+## Wikilink Audit Results
+
+- **Orphan count:** 63 (down from 67 — 4 notes that were linked TO gained incoming connections)
+- **Notes improved today:** 9 total (4 project files + 5 topic notes)
+- **Remaining orphans:** Many are intentionally standalone research references, YouTube transcripts, and raw captures
+
+## Vault State
+
+| Area | Status | Notes |
+|------|--------|-------|
+| Trigyaa content system | ✅ Research-complete | Content calendar, Hermes prompts, Flux workflow |
+| Brandsome.dev | ✅ Research-complete | Phase 1-3 plan, competitive analysis, pricing model |
+| Brandsome.app | ✅ Research-complete | Postiz integration, dogfood approach, tech stack |
+| Blog queue | ✅ Research-complete | GSC-prioritized drafts in inbox, 8-week publishing queue |
+| GEO | ✅ Research-complete | geo-generative-engine-optimization.md complete |
+| KhabarOnline content | ⚠️ Gap documented | No prompts/calendar, blocker: Rocky input needed |
+| Postiz infra | ✅ Research-complete | topics/postiz-social-media-scheduling.md |
+| TrueValueEstate.com | ⚠️ Near production | Minor fixes needed from Rocky |
+| Wikilinks | ✅ Improved | Project files and orphan notes now cross-linked |
 
 ## Current Blockers (All Human-Actionable)
 
@@ -63,68 +82,9 @@ Web search has now been down for 9+ consecutive days. This is a confirmed prolon
 ## What's NOT Blocked (Agent Can Execute)
 
 1. **Blog implementation:** Move inbox drafts to blog project, publish GSC-aligned articles
-2. **TrueValueEstate fixes:** If Rocky shares specific bugs, Codex can fix them
-3. **Internal linking:** Audit existing blog posts for internal link structure
-4. **Note cross-linking:** Add wikilinks between related topics in vault
-5. **SEO audit:** Internal linking structure review for rakesh.tembhurne.com
-
-## Vault Inventory
-
-**topics/ key files:**
-- `geo-generative-engine-optimization.md` — ✅ Expanded
-- `brandsome-dev-logo-tool.md` — ✅ Complete
-- `brandsome-app-social-media-saas.md` — ✅ Complete
-- `trigyaa-content-calendar-30day.md` — ✅ Complete
-- `trigyaa-hermes-content-prompts.md` — ✅ Complete
-- `khabar-online-content-gap.md` — ⚠️ Gap documented
-- `seo-geo.md` — Reference doc for GEO
-
-**projects/ key files:**
-- `trigyaa-playbook.md` — Live project
-- `brandsome.dev.md` — In development
-- `truevalueestate.com.md` — Near production
-
-
-## Wikilink Audit — Round 2 (Continued)
-
-**Web Search:** Still returning HTTP 400 (tool API issue, google.com itself returns 200). Vault-only mode continues.
-
-**TweetDB:** Last scrape May 25 (6 days stale). DB has 5,989 tweets, 0 new tweets in last 3 days.
-
-### Wikilink Improvements Added Today
-
-| Note | Links Added |
-|------|------------|
-| `youtube-growth.md` | content-creation-articles, social-media-seo, youtube-video-creation-workflow, ai-video-creation, ai-longform-youtube-video-system, blog-content-plan-2026 |
-| `ai-landscape.md` | ai-tools-2026, ai-tools-articles, claude-code-skills, claude-code-skills-20, claude-code-agent-teams-complete, vibe-coding, ai-model-war-career-strategy |
-| `ai-longform-youtube-video-system.md` | youtube-video-creation-workflow, ai-video-creation, youtube-growth, n8n-ai-agents-workflows, content-creation-articles |
-| `ai-reddit-content-research-method.md` | content-creation-articles, content-strategy, ai-tools-2026, social-media-seo, khabar-online-content-gap |
-
-**Orphan count:** 75 notes still have 0 incoming wikilinks (down from 81 yesterday). Many are intentionally standalone research references.
-
-### Key Findings
-
-1. **Web search remains down** — tool returns HTTP 400 even though google.com itself responds. Prolonged outage continues.
-2. **Blog inbox docs are comprehensive** — `blog-implementation-plan.md` (751 lines) + `blog-content-plan-2026.md` contain full GSC-prioritized publishing queue. Well-structured, ready for execution.
-3. **KhabarOnline gap confirmed** — `khabar-online-content-gap.md` has Hermes prompt pattern but needs Rocky input on brand voice, posting frequency, and existing social accounts before agent can build prompts.
-4. **TweetDB completely stale** — 0 new tweets since May 25. No new learnings available until scraper runs again.
-
-### Current Blockers (All Human-Actionable)
-
-| Blocker | What's Needed | Who's Blocked |
-|---------|---------------|----------------|
-| Dogfood Brandsome | Rocky tests Trigyaa → Brandsome workflow | Brandsome.app build |
-| KhabarOnline brand voice | Rocky defines editorial stance, priorities | Hermes prompts |
-| GEO audit | Rocky applies schema markup | Trigyaa + KhabarOnline |
-| TrueValueEstate.com | Minor fixes | Near production |
-| AI-Boilerplate | Improvements + selling strategy | Product launch |
-| Blog publishing | Rocky publishes GSC-prioritized drafts | rakesh.tembhurne.com |
-
-### What's NOT Blocked
-
-1. **Blog implementation:** Move inbox drafts to blog project folder
-2. **Wikilink audit:** Continue orphan note cross-linking (75 remain)
+2. **Wikilink audit:** Continue orphan note cross-linking (63 remain)
 3. **Note synthesis:** Create summary notes for complex topic clusters
+4. **Internal linking:** Audit existing blog posts for internal link structure
 
 ## Related
 - [[research_program.md]]

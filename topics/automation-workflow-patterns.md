@@ -197,3 +197,8 @@ Built-in X/Twitter search in Hermes Agent v0.14.
 
 ---
 **Sources**: Multiple n8n tutorials, Nick Saraev, Simon Høiberg, Claude Code workflows
+
+## Related
+- [[n8n-ai-agents-workflows]] — n8n AI workflow patterns
+- [[automation-cost-optimization]] — Cost optimization for AI automations
+- [[claude-code-agent-teams-complete]] — Multi-agent orchestration

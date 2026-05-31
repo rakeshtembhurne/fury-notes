@@ -6,6 +6,8 @@ source: notes directory
 
 # KhabarOnline.com Playbook
 
+> Related: [[khabar-online-content-gap]] · [[content-strategy]] · [[ai-reddit-content-research-method]]
+
 Automated news aggregation and content rewriting platform.
 
 ## Project Status

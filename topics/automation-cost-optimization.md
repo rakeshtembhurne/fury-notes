@@ -132,5 +132,10 @@ Track:
 4. **Monitor costs**: Track every automation expense
 5. **Iterate**: Measure, adjust, optimize
 
----
+--
 **Sources**: Mike Pekka (AI Automation)
+
+## Related
+- [[automation-workflow-patterns]] — Core automation patterns
+- [[n8n-ai-agents-workflows]] — n8n AI workflows
+- [[productized-ai-system-n8n-airtable]] — Productized AI service model

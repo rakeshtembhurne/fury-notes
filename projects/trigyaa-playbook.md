@@ -6,6 +6,8 @@ updated: 2026-04-15
 
 # Trigyaa Playbook
 
+> Related: [[trigyaa-content-calendar-30day]] · [[trigyaa-hermes-content-prompts]] · [[trigyaa-flux-ai-image-workflow]] · [[flux-ai-social-media-automation]]
+
 Minimalist women's wear. Urban India. D2C. Premium feel, honest price.
 
 ## Story
