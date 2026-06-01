@@ -6,6 +6,8 @@ source: "Twitter favorites (37 tweets)"
 
 # Productivity & Tools — Key Learnings
 
+> Related: [[productivity-systems]] · [[n8n-ai-agents-workflows]] · [[ai-tools-2026]] · [[claude-code]]
+
 ## Tools Worth Knowing
 - **LangExtract** — Open-source document extraction, free, reportedly better than $50K enterprise tools
 - **Langtrace** — Open-source observability for LLM applications

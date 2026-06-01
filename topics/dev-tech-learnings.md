@@ -6,6 +6,8 @@ tags: #dev #tech #stack #learnings
 
 # Dev & Tech Stack Learnings
 
+> Related: [[vibe-coding]] · [[claude-code]] · [[n8n-ai-agents-workflows]] · [[micro-startup-playbook]] · [[n8n-infrastructure-deployment]]
+
 ## Consolidated from notes/ folder — May 2026
 
 ---

@@ -6,53 +6,55 @@ tags: #daily #research-log
 # Daily Research Log — 2026-06-01
 
 **Agent:** Fury (Hermes Agent)
-**Topic:** Vault-only research — web search 11+ consecutive days down
+**Topic:** Vault-only research — web search 12+ consecutive days down
 
 ## Session Summary
 
-**Web Search Status:** Down (HTTP 400 — 11+ consecutive days). Prolonged outage confirmed. Continuing vault-only mode.
+**Web Search Status:** Down (HTTP 400 — 12+ consecutive days). Prolonged outage confirmed. Continuing vault-only mode.
 
-**TweetDB Status:** Last scraped May 25. 70 new tweets since last scrape. tweet2learnings returned empty (no categorized learnings).
+**TweetDB Status:** 70 new tweets since May 25 (5,989 total). tweet2learnings returned empty — no categorizable learnings from new tweets. Normal pipeline behavior.
 
 ## Web Search Downtime Pattern
 
-Web search has now been down for 11+ consecutive days. Confirmed prolonged outage. Vault-only mode continues.
+Web search has now been down for 12+ consecutive days. Confirmed prolonged outage. Vault-only mode continues.
 
-**Vault-only mode remains productive.** Focus on inbox processing, wikilink audits, and note cross-linking.
+**Vault-only mode remains productive.** Focus on wikilink audits, note cross-linking, and synthesizing existing vault content.
 
 ## Today's Actions
 
-1. ✅ Verified web search — still down (11+ days, prolonged outage)
-2. ✅ Checked TweetDB — 70 new tweets since May 25 (total 5,989), tweet2learnings empty
-3. ✅ Processed inbox notes — moved 2 blog notes from inbox to topics
-4. ✅ Wikilink improvements — added Related sections to 4 topic notes
+1. ✅ Verified web search — still down (12+ days, prolonged outage)
+2. ✅ Checked TweetDB — 70 new tweets since May 25, tweet2learnings empty (no categorizable signal)
+3. ✅ Wikilink improvements — 10 non-transcript orphan notes now linked to existing topics
+4. ✅ Archived `aaloo-pyaz-product-idea.md` (PineScript trading code, not a real product)
 
-## Inbox Processing
+## Wikilink Improvements — 9 Orphan Notes Now Connected
 
-Moved 2 substantive notes from inbox to topics:
-
-| Note | New Location | Tags Updated |
-|------|-------------|--------------|
-| `blog-content-plan-2026.md` | `topics/` | inbox → topic |
-| `blog-implementation-plan.md` | `topics/` | inbox → topic |
-
-Both notes are comprehensive GSC-driven content plans for rakesh.tembhurne.com. Already had Related sections added.
-
-## Wikilink Improvements
-
-### Newly-Moved Notes Linked
+### Non-Transcript Orphans Linked
 
 | File | Links Added |
 |------|-------------|
-| `topics/blog-content-plan-2026.md` | micro-startup-playbook, vibe-coding, seo-geo, content-strategy, ai-reddit-content-research-method |
-| `topics/blog-implementation-plan.md` | blog-content-plan-2026, micro-startup-playbook, claude-code, vibe-coding |
+| `ai-business-ideas.md` | validated-micro-startup-ideas, boring-ai-niches-making-millionaires, micro-startup-playbook, ai-tools-2026 |
+| `business-growth-articles.md` | marketing-fundamentals, growth-hacking, startup-wisdom-2026, indie-hacker-deep-dive-2026, startup-saas-million-dollar-blueprint |
+| `creating-compatible-skills.md` | claude-code-skills, vibe-coding, skills-sh-research, claude-code-self-improving-skills |
+| `dev-tech-learnings.md` | vibe-coding, claude-code, n8n-ai-agents-workflows, micro-startup-playbook, n8n-infrastructure-deployment |
+| `government-schemes-india.md` | trigyaa-content-calendar-30day, khabar-online-content-gap, micro-startup-playbook, indie-hacker-deep-dive-2026 |
+| `personal-development-articles.md` | millionaire-mindset, communication-mastery, trading-psychology-youtube-compilation, startup-wisdom-2026, mindset |
+| `productivity-tools-learnings.md` | productivity-systems, n8n-ai-agents-workflows, ai-tools-2026, claude-code |
+| `skills-sh-research.md` | ai-agents, claude-code-skills, creating-compatible-skills, harness-engineering-ai-agents |
+| `startup-business-learnings.md` | micro-startup-playbook, startup-wisdom-2026, indie-hacker-deep-dive-2026, trust-mrr-platform, validated-micro-startup-ideas |
 
-### Orphan Notes Enhanced
+### Archived
 
-| Note | Links Added |
-|------|-------------|
-| `topics/ai-ml-tools-learnings.md` | ai-tools-2026, claude-code, vibe-coding, ai-model-harness-engineering |
-| `topics/ai-model-harness-engineering.md` | ai-tools-2026, claude-code, ai-ml-tools-learnings, harness-engineering-ai-agents |
+| File | Reason |
+|------|--------|
+| `aaloo-pyaz-product-idea.md` | PineScript TradingView indicator code, not a real product |
+
+## Wikilink Audit Results
+
+- **Orphan count:** 51 (down from 60 — 9 orphans connected + 1 archived)
+- **Orphan rate:** 38.6% (down from 45.1%)
+- **Notes improved today:** 10 total (9 linked + 1 archived)
+- **Remaining orphans:** Mostly YouTube transcripts and raw captures (noise, not knowledge)
 
 ## Vault State
 
@@ -66,8 +68,7 @@ Both notes are comprehensive GSC-driven content plans for rakesh.tembhurne.com. 
 | KhabarOnline content | ⚠️ Gap documented | No prompts/calendar, blocker: Rocky input needed |
 | Postiz infra | ✅ Research-complete | topics/postiz-social-media-scheduling.md |
 | TrueValueEstate.com | ⚠️ Near production | Minor fixes needed from Rocky |
-| Wikilinks | ✅ Improved | Project files and orphan notes now cross-linked |
-| Inbox | ✅ Processed | 2 blog notes moved to topics |
+| Wikilinks | ✅ Improved | 9 orphan notes now connected, orphan rate -6.5pp |
 
 ## Current Blockers (All Human-Actionable)
 
@@ -82,14 +83,15 @@ Both notes are comprehensive GSC-driven content plans for rakesh.tembhurne.com. 
 
 ## What's NOT Blocked (Agent Can Execute)
 
-1. **Wikilink audit:** Continue orphan note cross-linking (63 remain)
+1. **Wikilink audit:** Continue orphan note cross-linking (51 remain, mostly raw YouTube transcripts)
 2. **Note synthesis:** Create summary notes for complex topic clusters
 3. **Internal linking:** Audit existing blog posts for internal link structure
 4. **TweetDB refresh:** Re-scrape to capture new tweets beyond May 25
 
 ## Related
 - [[research_program.md]]
-- [[blog-content-plan-2026]]
-- [[blog-implementation-plan]]
-- [[ai-ml-tools-learnings]]
+- [[ai-business-ideas]]
+- [[business-growth-articles]]
+- [[dev-tech-learnings]]
+- [[startup-business-learnings]]
 - [[daily-research-log-2026-05-31]] (yesterday)

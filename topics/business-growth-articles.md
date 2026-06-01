@@ -1,5 +1,7 @@
 # Business Growth Articles — Consolidated Notes
 
+> Related: [[marketing-fundamentals]] · [[growth-hacking]] · [[startup-wisdom-2026]] · [[indie-hacker-deep-dive-2026]] · [[startup-saas-million-dollar-blueprint]]
+
 ## Overview
 This document consolidates key insights from 24 business growth articles covering entrepreneurship, marketing, sales, personal branding, and AI-powered business models.
 

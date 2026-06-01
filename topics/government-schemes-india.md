@@ -7,6 +7,8 @@ source: Government scheme documentation
 
 # Government Schemes — India (Maharashtra)
 
+> Related: [[trigyaa-content-calendar-30day]] · [[khabar-online-content-gap]] · [[micro-startup-playbook]] · [[indie-hacker-deep-dive-2026]]
+
 ## Overview
 
 Compilation of central and state government schemes for farmers and rural residents in Maharashtra, India. Primary portal: [mahadbt.maharashtra.gov.in](https://mahadbt.maharashtra.gov.in)

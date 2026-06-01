@@ -12,6 +12,8 @@ type: topic-note
 
 # Personal Development Articles
 
+> Related: [[millionaire-mindset]] · [[communication-mastery]] · [[trading-psychology-youtube-compilation]] · [[startup-wisdom-2026]] · [[mindset]]
+
 > Consolidated insights from 16 source files on mindset, psychology, identity change, and human behavior.
 
 ---

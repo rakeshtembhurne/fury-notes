@@ -6,6 +6,8 @@ source: "Twitter favorites (263 tweets)"
 
 # Startup & Business — Key Learnings
 
+> Related: [[micro-startup-playbook]] · [[startup-wisdom-2026]] · [[indie-hacker-deep-dive-2026]] · [[trust-mrr-platform]] · [[validated-micro-startup-ideas]]
+
 ## Revenue Milestones from Real Founders
 | Product | Revenue | Timeline |
 |---------|---------|---------|

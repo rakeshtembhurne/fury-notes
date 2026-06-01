@@ -6,6 +6,8 @@ source: notes directory
 
 # skill.sh Research: AI Agent Skills Distribution
 
+> Related: [[ai-agents]] · [[claude-code-skills]] · [[creating-compatible-skills]] · [[harness-engineering-ai-agents]]
+
 ## Summary
 
 **skill.sh domain is parked** (not operational). However, extensive research reveals the **actual skills distribution ecosystem** currently used by Claude Code and compatible AI agents (Gemini CLI, Cursor, Windsurf, Pi, etc.).

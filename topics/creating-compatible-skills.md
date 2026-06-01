@@ -6,6 +6,8 @@ source: notes directory
 
 # Creating AI Agent Skills — Implementation Guide
 
+> Related: [[claude-code-skills]] · [[vibe-coding]] · [[skills-sh-research]] · [[claude-code-self-improving-skills]]
+
 Quick start for building skills that work with Claude Code, Gemini CLI, Cursor, and other AI agents.
 
 ---

@@ -27,6 +27,9 @@ tags: [topic, ai, business-ideas]
 - AI personal assistants
 - Sales assistant
 
+## Related
+- [[validated-micro-startup-ideas]] · [[boring-ai-niches-making-millionaires]] · [[micro-startup-playbook]] · [[ai-tools-2026]]
+
 ## Where to Sell Businesses
 - EmpireFlippers.com
 
