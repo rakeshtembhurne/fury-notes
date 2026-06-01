@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-tags: [inbox, content-planning, blog, seo]
+tags: [topic, content-planning, blog, seo]
 source: notes directory
 ---
 
@@ -293,6 +293,9 @@ India is your #4 traffic source. This validates the "Indian software/tech career
 | **8 — LOW** | YouTube growth series | High traffic potential but no current ranking. |
 
 ---
+
+## Related
+- [[micro-startup-playbook]] · [[vibe-coding]] · [[seo-geo]] · [[content-strategy]] · [[ai-reddit-content-research-method]]
 
 ## Notes
 

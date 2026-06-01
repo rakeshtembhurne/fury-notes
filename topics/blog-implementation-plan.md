@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19
-tags: [inbox, content-planning, implementation, blog]
+tags: [topic, content-planning, implementation, blog]
 source: notes directory
 ---
 
@@ -747,4 +747,10 @@ bun run remotion preview
 - [ ] Add sample video frame
 - [ ] Proofread and edit
 - [ ] Add meta description
+
+## Related
+- [[blog-content-plan-2026]] · [[micro-startup-playbook]] · [[claude-code]] · [[vibe-coding]]
+
+## Status
+
 - [ ] Create featured image for social
