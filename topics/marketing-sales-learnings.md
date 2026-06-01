@@ -6,6 +6,8 @@ source: "Himanshu Agrawal course"
 
 # Marketing & Sales Learnings
 
+> Related: [[startup-wisdom-2026]] · [[indie-hacker-deep-dive-2026]] · [[micro-startup-playbook]] · [[trigyaa-content-calendar-30day]] · [[brandsome-app-social-media-saas]]
+
 ## Funnel Strategy
 ```
 Ads (FB/IG) => Landing Page (Free Lead Magnet) => VSL Page (Rs 299 call) => Calendar (Book Call) => Product

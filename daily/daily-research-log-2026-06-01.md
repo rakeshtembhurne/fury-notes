@@ -88,6 +88,33 @@ Web search has now been down for 12+ consecutive days. Confirmed prolonged outag
 3. **Internal linking:** Audit existing blog posts for internal link structure
 4. **TweetDB refresh:** Re-scrape to capture new tweets beyond May 25
 
+## Today's Additional Actions
+
+3. ✅ Added Related section to `marketing-sales-learnings.md` (linked to startup-wisdom-2026, indie-hacker-deep-dive-2026, micro-startup-playbook, trigyaa-content-calendar-30day, brandsome-app-social-media-saas)
+4. ✅ Added Related section to `twitter-summaries-march-2026.md` (linked to ai-tools-2026, claude-code, vibe-coding, indie-hacker-deep-dive-2026, startup-wisdom-2026)
+
+## Wikilink Audit — Updated Status
+
+- **Orphan count:** 51 total (unchanged from morning)
+  - 11 real orphans (non-transcript, synthesized notes with outgoing links but no incoming links)
+  - 40 video/transcript orphans (YouTube transcripts — noise, skip)
+- **Orphan rate:** 38.6% of 132 topics
+- **Note:** 11 real orphans all have outgoing Related sections but no other files link BACK to them. This is normal wiki behavior — not every note needs bidirectional linking. These are not true orphans in the knowledge-gaps sense.
+
+## Vault State (Updated)
+
+| Area | Status | Notes |
+|------|--------|-------|
+| Trigyaa content system | ✅ Research-complete | Content calendar, Hermes prompts, Flux workflow |
+| Brandsome.dev | ✅ Research-complete | Phase 1-3 plan, competitive analysis, pricing model |
+| Brandsome.app | ✅ Research-complete | Postiz integration, dogfood approach, tech stack |
+| Blog queue | ✅ Research-complete | GSC-prioritized drafts in topics, 8-week publishing queue |
+| GEO | ✅ Research-complete | geo-generative-engine-optimization.md complete |
+| KhabarOnline content | ⚠️ Gap documented | No prompts/calendar, blocker: Rocky input needed |
+| Postiz infra | ✅ Research-complete | topics/postiz-social-media-scheduling.md |
+| TrueValueEstate.com | ⚠️ Near production | Minor fixes needed from Rocky |
+| Wikilinks | ✅ Improved | marketing-sales-learnings + twitter-summaries linked |
+
 ## Related
 - [[research_program.md]]
 - [[ai-business-ideas]]
