@@ -197,3 +197,7 @@ The `.env` file is stored at `/opt/bitnami/projects/trademybots/.env` and contai
 | `/opt/bitnami/letsencrypt/` | Let's Encrypt certificates |
 | `/opt/bitnami/letsencrypt/scripts/` | Certificate renewal scripts |
 | `~/.pm2/logs/` | PM2 logs |
+
+---
+
+> Related: [[trademybots-playbook]] · [[dev-tech-learnings]] · [[n8n-infrastructure-deployment]] · [[aws-ec2-docker-n8n-free-hosting]]

@@ -140,3 +140,7 @@ Pre-launch (product not yet built). These steps before MVP ship:
 - Creator revenue share — what % retains creators?
 - Kill switch UX — app notification vs hard broker-API cutoff?
 - Paper-trading first 30 days mandatory?
+
+---
+
+> Related: [[trademybots-setup]] · [[startup-business-learnings]] · [[trust-mrr-platform]] · [[research_program]]

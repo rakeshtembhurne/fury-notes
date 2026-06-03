@@ -57,3 +57,7 @@ Both are multi-tenant SaaS. Any startup can subscribe. Self-serve signup.
 See: [[../backlog/micro-startup-ideas]]
 
 Rejected (#1, #2). Saved for later (#3-10).
+
+---
+
+> Related: [[brandsome-dev-app]] · [[brandsome.dev]] · [[trigyaa.com]] · [[khabaronline.com]] · [[truevalueestate.com]] · [[research_program]]
