@@ -50,3 +50,6 @@
 - [ ] Lifetime pricing page
 - [ ] Build in public content calendar
 - [ ] Social distribution plan (Reddit, X, Indie Hackers)
+
+## Related
+- [[brandsome-dev-logo-tool]] · [[brandsome-app-social-media-saas]] · [[brandsome.dev.md]] · [[postiz-social-media-scheduling]] · [[research_program]]
