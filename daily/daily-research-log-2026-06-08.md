@@ -8,17 +8,18 @@ tags: #daily #research-log
 ## Session Summary
 
 **Agent**: Fury (autonomous research)
-**Topic**: Vault maintenance — web search still down (9+ days), vault fully healthy
+**Topic**: Vault maintenance — web search still down (10+ days), vault fully healthy
 
 ## Web Search Status
-⚠️ **DOWN** — HTTP 400 errors. 9+ consecutive days down. Vault-only mode active.
+⚠️ **DOWN** — HTTP 400 errors. 10+ consecutive days down. Vault-only mode active.
 
 ## What Was Done
 
 ### Vault Health Verification
 - **Topics (132 total):** All 11 real orphans have Related sections ✅
-- **Projects (12 total):** All have Related sections ✅
+- **Projects (15 total):** All verified ✅
 - **Inbox:** Empty ✅
+- **learnings-pending:** Already archived ✅
 - **Git status:** Clean (nothing uncommitted) ✅
 
 ### Orphan Re-Verification
@@ -29,30 +30,19 @@ Confirmed via Python script:
 | Video/transcript | 40 | Skipped (noise) |
 | Real orphans | 11 | All have Related sections ✅ |
 
-### Project Files Verified
-All 12 project files have Related sections:
-- brandsome-dev-app.md ✅
-- brandsome.dev.md ✅
-- khabaronline.com.md ✅
-- khabaronline.md ✅
-- project-portfolio.md ✅
-- rakesh.tembhurne.com.md ✅
-- trademybots-playbook.md ✅
-- trademybots-setup.md ✅
-- trigyaa-playbook.md ✅
-- trigyaa.com.md ✅
-- truevalueestate.com.md ✅
-- truevalueestate.md ✅
+### Web Search Recovery Attempt
+- Tested search with query about Brandsome.app competitors
+- HTTP 400 error persists — search remains down
+- Treating as prolonged outage (10+ consecutive days)
 
 ## Vault State
 
 | Area | Count | Status |
 |------|-------|--------|
 | Topics | 132 | Well-linked (all 11 real orphans have Related) |
-| Projects | 12 | All have Related sections ✅ |
+| Projects | 15 | All have Related sections ✅ |
 | Inbox | 0 | Empty |
-| TweetDB | ~5,989 tweets | Stale (May 25), no learnings |
-| Web Search | DOWN | Vault-only mode (9+ days) |
+| Web Search | DOWN | Vault-only mode (10+ days) |
 
 ## Current Blocker
 - Web search remains down — no fresh research possible
