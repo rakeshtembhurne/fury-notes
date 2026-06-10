@@ -1,17 +1,36 @@
 ---
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-06-10
 tags: #projects #priorities #direction
 ---
 
-# Project Priorities — May 2026
+# Project Priorities — June 2026
 
-## Priority 1 (NOW)
+## Live Projects (Production)
 
-### 1. Trigyaa.com — Content & Social Media
-**Status:** Live, needs marketing
-**Goal:** Content auto-creation + auto-post on FB, Instagram, Twitter, YouTube
-**Why:** Product is ready. Marketing is the bottleneck.
+| Project | URL | What It Is | Status |
+|---------|-----|-----------|--------|
+| **Trigyaa.com** | shop.trigyaa.com | Women's wear D2C, India | LIVE — needs content/marketing |
+| **KhabarOnline** | khabaronline.in | News site | LIVE — needs content |
+| **JciAlumni.org** | jcialumni.org | JCI community site | LIVE — 40K members |
+| **rakesh.tembhurne.com** | rakesh.tembhurne.com | Personal blog | LIVE |
+
+---
+
+## In Development
+
+| Project | Status |
+|---------|--------|
+| **TrueValueEstate.com** | Near production — minor fixes needed |
+| **Brandsome.dev** | Logo tool — dogfood with Trigyaa first |
+| **Brandsome.app** | Social media SaaS — Priority #3 |
+| **AI-Boilerplate** | Needs improvements + selling |
+
+---
+
+## Priority 1: Trigyaa.com — Content & Social Media
+
+**Why:** Product is live. Marketing is the bottleneck.
 
 **What needs building:**
 - AI content creation pipeline (posts, reels, carousels)
@@ -19,75 +38,62 @@ tags: #projects #priorities #direction
 - Content calendar system
 - UGC + customer review automation
 
-### 2. Brandsome.app / Brandsome.dev
-**Concept:** Logo.com for AI era
-**Domain:** brandsome.dev (current), brandsome.app (planned)
-**Idea:** From logo to full brand identity to AI-generated social content
-
-**Workflow:**
-1. User creates logo (template-based, brand colors, fonts)
-2. System learns brand identity (colors, style, voice)
-3. Generate IG posts, FB covers, YouTube thumbnails — all brand-consistent
-4. Connect to AI tools (nano banana, kling, etc.) for video content
-
-**Stack:** Vercel + Supabase + AI APIs
-**Status:** Fresh start
-
-### 3. JciAlumni.org
-**Status:** Live
-**Asset:** 40K+ member database (JCI community worldwide)
-**Goal:** Get known to them, build trust, eventually cross-sell other products
-
-**What needs:**
-- Outreach system
-- Email/WhatsApp campaign
-- Community engagement
+**Note:** Trigyaa is the dogfood case for Brandsome.app. Build the workflow manually first.
 
 ---
 
-## Priority 2 (LATER)
+## Priority 2: Brandsome.dev → Brandsome.app
 
-### 4. rakesh.tembhurne.com — Personal Blog
-- Rocky will explain how to use it
-- Likely: blog drives funnel → products
+**Concept:** Logo.com for the AI era
 
-### 5. TrueValueEstate.com
-- Minor tweaks to make production-ready
-- Domain/proptech India
+**Workflow:**
+1. User creates logo (template-based)
+2. System learns brand identity (colors, fonts, style)
+3. Generate IG posts, FB covers, YouTube thumbnails — brand-consistent
+4. Connect AI tools (Kling, Nano Banana) for video content
 
-### 6. AI-Boilerplate
-- Already exists
-- Needs improvements
-- Need to start selling
+**Brandsome.dev:** Logo creation tool
+**Brandsome.app:** Social media content SaaS (CapCut/Canva alternative)
+
+**Stack:** Vercel + Supabase + AI APIs (Flux AI, Runway, ElevenLabs)
+**Integration:** Postiz for scheduling (don't compete with it)
+
+---
+
+## Priority 3: KhabarOnline.com — Content Pipeline
+
+**Status:** Live, needs content
+**Goal:** AI-assisted news content generation + social distribution
 
 ---
 
 ## Skip / Delete
 
-- Pi-Starter (script, not a startup)
-- AI-CoParenting (bandwidth)
-- AI-Dating (bandwidth)
-- EvoCreator (unknown, not working on it)
-- IndianLaw (bandwidth)
-- PulmoRehab (friend's idea, not pursuing)
-- ComicsBuilder (separate idea: AI comics → print → sell physically)
+- EvoCreator
+- IndianLaw
+- AI-CoParenting
+- AI-Dating
+- PulmoRehab
+- ComicsBuilder
+- Pi-Starter
 
 ---
 
 ## Strategic Direction
 
 **Approach:**
-1. Use Trigyaa as test case for social media AI content system
-2. Build Brandsome.app as the product (solved problem for ourselves first)
-3. JciAlumni.org as distribution channel for all products
+1. Solve your own problem first → productize it
+2. Trigyaa needs content → build content AI → make it a product (Brandsome)
+3. KhabarOnline needs content → same AI system applies
 
-**Key insight from Rocky:**
-- Solve your own problem first → productize it
-- Trigyaa needs content → build content AI → make it a product (Brandsome)
+**The pivot (May 2026):** Build micro-startups that USE AI. AI is a tool, not the product.
 
 ---
 
 ## Related
 
-- [[research_program]]
-- [[strategic-pivot]]
+- [[research_program]] — Full priorities and validated revenue data
+- [[brandsome-app-social-media-saas]] — Brandsome.app deep dive
+- [[brandsome-dev-logo-tool]] — Brandsome.dev research
+- [[trigyaa-playbook]] — Trigyaa operations
+- [[khabar-online-content-gap]] — KhabarOnline content strategy
