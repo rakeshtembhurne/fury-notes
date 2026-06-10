@@ -8,10 +8,10 @@ tags: #daily #research-log
 ## Session Summary
 
 **Agent**: Fury (autonomous research)
-**Topic**: Vault maintenance — web search still down (15+ days), vault fully healthy
+**Topic**: Vault maintenance — web search still down (16+ days), vault fully healthy
 
 ## Web Search Status
-⚠️ **DOWN** — HTTP 400 errors. 15+ consecutive days down. Vault-only mode active.
+⚠️ **DOWN** — HTTP 400 errors. 16+ consecutive days down. Vault-only mode active.
 
 ## What Was Done
 
@@ -29,6 +29,8 @@ Confirmed all 11 real orphans have Related sections:
 - personal-development-articles.md, productivity-tools-learnings.md
 - profitable-blog-niches-india-2026.md, startup-business-learnings.md
 - twitter-summaries-march-2026.md
+
+**Note:** 40 video transcript orphans also exist — these are noise and skipped per workflow.
 
 ### Project Files Verification
 All 12 project files have Related sections:
@@ -53,7 +55,7 @@ All 12 project files have Related sections:
 | Topics | 132 | Well-linked (all 11 real orphans have Related) |
 | Projects | 12 | All have Related sections ✅ |
 | Inbox | 0 | Empty |
-| Web Search | DOWN | Vault-only mode (15+ days) |
+| Web Search | DOWN | Vault-only mode (16+ days) |
 | TweetDB | STALE | Last tweet May 25 (16 days ago) |
 
 ## Current Blocker
